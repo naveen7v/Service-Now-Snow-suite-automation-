@@ -8,8 +8,8 @@ tex = []
 
 b.driver.maximize_window()
 
-#b.visit('http://autodesktest.service-now.com') # for test site
-b.visit('http://autodesk.service-now.com')
+#b.visit('http://test.service-now.com') # for test site
+b.visit('http://test.service-now.com')
 
 with b.get_iframe('gsft_main') as ifr:
     ifr.fill('user_name','your_login')
